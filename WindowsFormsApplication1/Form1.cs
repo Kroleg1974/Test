@@ -21,5 +21,10 @@ namespace WindowsFormsApplication1
     {
       textBox1.Text = "OPSKDJKS";
     }
+
+    private void textBox1_TextChanged(object sender, EventArgs e)
+    {
+      textBox1.ForeColor = Color.Beige;
+    }
   }
 }
